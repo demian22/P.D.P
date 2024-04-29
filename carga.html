@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cargando la Bolsa de Compars</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/img/pantalla-carga/b2c7de1951d5d57e9305c96ca875e170-bolsas-de-compra-by-vexels.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  .loading-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .progress-bar {
+    width: 50%;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .progress {
+    width: 0%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: width 1s ease-in-out;
+  }
+</style>
+</head>
+<body>
+  <div class="loading-text">¡Preparando la bolsa de compars para ti!</div>
+  <div class="progress-bar">
+    <div class="progress" id="progress"></div>
+  </div>
+
+  <script>
+    // Simular carga con un temporizador
+    let progress = 0;
+    const progressBar = document.getElementById('progress');
+    const interval = setInterval(() => {
+      progress += Math.random() * 10;
+      progressBar.style.width = `${Math.min(progress, 100)}%`;
+      if (progress >= 100) {
+        clearInterval(interval);
+        // Simular redirección a la página principal después de la carga completa
+        window.location.href = 'index.html'; // Cambia 'pagina-principal.html' por la URL de tu página principal
+      }
+    }, 500);
+  </script>
+</body>
+</html>

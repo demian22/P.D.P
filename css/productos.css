@@ -1,0 +1,13 @@
+body {
+    background-color: #00ffff !important;
+    width: 100%; 
+  }
+  .icon-navbar {
+    width: 40px;
+    border-radius: 50%;
+  }
+
+.punta-circular {
+  border-radius: 40% !important ;
+
+}
