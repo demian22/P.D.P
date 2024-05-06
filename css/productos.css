@@ -1,13 +1,28 @@
 body {
-    background-color: #00ffff !important;
-    width: 100%; 
-  }
-  .icon-navbar {
-    width: 40px;
-    border-radius: 50%;
-  }
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
 
-.punta-circular {
-  border-radius: 40% !important ;
+.construction {
+  font-size: 24px;
+  text-align: center;
+  animation: blink 1s infinite alternate;
+}
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.p-construccion {
+  color: aliceblue;
 }

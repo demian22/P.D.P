@@ -137,3 +137,21 @@ body {
   width: 40px;
   border-radius: 50%;
 }
+/* Estilos para el boton ver catalogo */
+.btn-ver-catalogo {
+  background-color:  rgb(56, 56, 56);
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding: 12px 30px;
+  border-radius: 15px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /*sombra*/
+  text-decoration: none;
+}
+
+/*boton ver catalogo al pasar el mouse */
+.btn-ver-catalogo:hover {
+  background-color: #4a1da9;
+  transform: translateY(-2px);
+}

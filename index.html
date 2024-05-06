@@ -86,33 +86,27 @@
       </ul>
     </div>
 
-     <!--nav bar-->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--nav bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <!--img nav-->
+    <!--img nav-->
       <div>  
         <a class="navbar-brand" href="#"><img src="/img/Logo.png" class="icon-navbar : no-animation" alt="Logo"></img></a>
       </div>
-        <!--img nav-->
+    <!--img nav-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <a class="nav-link active : productos" aria-current="page" href="/productos.html">PRODUCTOS</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-
           </ul>
           <form class="d-flex">
+            <a href="/productos.html" class="btn btn-outline-light me-2">Ver Catálogo</a>
           </form>
         </div>
       </div>
     </nav>
     
-
         </form>
       </div>
     </div>
@@ -121,17 +115,14 @@
 
 </body>
 <main>
-   
 
-  
- <!-- Estilos personalizados para esta plantilla -->
- <link href="carousel.css" rel="stylesheet">
- <!--carrusel-->
- <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
- 
+
+  <!--carrusel-->
+  <link href="carousel.css" rel="stylesheet">
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
   </div>
 <!--Carrusel 1-->
 <div class="carousel-inner">
@@ -172,27 +163,35 @@
 <h1 class="text-center">Clientes Satisfechos</h1>
 
 <!--Reseña 1-->
-<div class="col-lg-4 text-center"><!-- Agregamos la clase "text-center" para centrar el contenido -->
-  <img src="/img/Reseñas/Naira-jazmin.jpg" class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-  <h2 class="fw-normal">Nahiara longo</h2>
-  <p>Las macetas recicladas son increíbles. Me encanta su diseño y cómo contribuyen al medio ambiente. ¡Son una excelente opción para decorar mi hogar de manera sostenible!</p>
+<div class="container marketing">
+
+  <div class="row">
+    <!-- Reseña 1 -->
+    <div class="col-lg-4 col-md-6 text-center">
+      <img src="/img/Reseñas/Naira-jazmin.jpg" class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <h2 class="fw-normal">Nahiara Longo</h2>
+      <p>Las macetas recicladas son increíbles. Me encanta su diseño y cómo contribuyen al medio ambiente. ¡Son una excelente opción para decorar mi hogar de manera sostenible!</p>
+    </div>
+
+    <!-- Reseña 2 -->
+    <div class="col-lg-4 col-md-6 text-center">
+      <img src="/img/Reseñas/juan-cruz.jpg" class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <h2 class="fw-normal">Juan Cruz</h2>
+      <p>¡Increíble descubrimiento las macetas recicladas! No solo embellecen mi jardín, sino que también me hacen sentir bien por contribuir al cuidado del planeta. ¡Muy contento con mi compra!</p>
+    </div>
+
+    <!-- Reseña 3 -->
+    <div class="col-lg-4 col-md-6 text-center">
+      <img src="/img/Reseñas/Juaquin-Gonzalez.jpg" class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <h2 class="fw-normal">Joaquín González</h2>
+      <p>¡Las macetas recicladas son geniales! Su diseño moderno y la posibilidad de reutilizar materiales me conquistaron. Además, el servicio al cliente fue excelente. ¡Totalmente recomendadas!</p>
+    </div>
+  </div>
 </div>
-
-<!--Reseña 2-->
-<div class="col-lg-4 text-center"><!-- Agregamos la clase "text-center" para centrar el contenido -->
-  <img src="/img/Reseñas/juan-cruz.jpg" class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-  <h2 class="fw-normal">Juan Cruz</h2>
-  <p>¡Increíble descubrimiento las macetas recicladas! No solo embellecen mi jardín, sino que también me hacen sentir bien por contribuir al cuidado del planeta. ¡Muy contento con mi compra!</p>
+<!-- Botón Ver Catálogo -->
+<div class="container text-center">
+  <a href="/productos.html" class="btn-ver-catalogo">Ver Catálogo</a>
 </div>
-
-<!--Reseña 3-->
-<div class="col-lg-4 text-center"><!-- Agregamos la clase "text-center" para centrar el contenido -->
-  <img src="/img/Reseñas/Juaquin-Gonzalez.jpg" class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-  <h2 class="fw-normal">Juaquin Gonzales</h2>
-  <p>¡Las macetas recicladas son geniales! Su diseño moderno y la posibilidad de reutilizar materiales me conquistaron. Además, el servicio al cliente fue excelente. ¡Totalmente recomendadas!</p>
-</div>
-
-
 
   <!-- START FEATURETTES -->
 
@@ -240,7 +239,7 @@
 
   <div class="row featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading fw-normal lh-1"><span class="text-body-secondary">Peroo...¿Como es el proseso?</span></h2>
+      <h2 class="featurette-heading fw-normal lh-1"><span class="text-body-secondary">Peroo...¿Como es el proceso?</span></h2>
       <p class="lead">Primero el lijado de una lata es un paso crucial en el
         proceso de transformación de una lata en una maceta reciclada, ya que 
         ayuda a preparar la superficie para su posterior pintado y decoración, 
@@ -252,9 +251,8 @@
     </div>
   </div>
 
-
   <!--Pintado de blanco 2°-->
- 
+
   <hr class="featurette-divider">
 
   <div class="row featurette">
@@ -271,7 +269,6 @@
       <img src="/img/Proseso/pintado-base.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em" alt="pintado"></text></img>
     </div>
   </div>
-
 
   <!--Aplicacion de diseño y barnizado 3°-->
 
@@ -309,7 +306,6 @@
 <footer class="container">
   <p class="float-end"><a href="#">Subir</a></p>
   <p>&copy; P.D.P &middot; <a href="https://www.instagram.com/pichona.macetas/"><i class="fab fa-instagram"></i>Contáctanos</a> &middot;</p>
-  
   <p class="center">Developed by <a href="https://github.com/demian22">Denegri Demián </a></p>
   </footer>
   </html>
