@@ -122,11 +122,7 @@ body {
   max-height: 1%;
   object-fit: contain;
 }
-.productos {
-  background-color: blue;
-  border-radius: 15%;
-  align-items: center;
-}
+
 
 body {
   background-color: #00ffff;
@@ -174,4 +170,16 @@ p {
 .img-border {
   border-style: solid;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* Desenfoque y color de sombra */
+}
+
+/*Icono flecha arriba*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.no-deccoration {
+  text-decoration: none;
 }
